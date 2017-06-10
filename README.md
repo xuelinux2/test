@@ -5,14 +5,14 @@ pylite consists of two executables: pycom and pyvm. pycom is the compiler, which
 
 ### How to build? 
 1. build pycom and pyvm 
-   cd pylite && make DEBUG=0
+   + cd pylite && make DEBUG=0
 2. add pycom and pyvm to PATH vaiable 
-   PATH=`pwd`/com:`pwd`/vm:$PATH
+   + PATH=`pwd`/com:`pwd`/vm:$PATH
 3. run tests
-   cd tests && ./run 
+   + cd tests && ./run 
 4. run a simple HttpServer
-   cd httpd && pyvm server.py
-   open the browser and access http://localhost:8080
+   + cd httpd && pyvm server.py
+   + open the browser and access http://localhost:8080
 
 ### Implemented features:
 1. builtin objects: list/dict/tuple/slice/range
