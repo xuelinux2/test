@@ -7,7 +7,7 @@ pylite consists of two executables: pycom and pyvm. pycom is the compiler, which
 1. build pycom and pyvm 
    + cd pylite && make DEBUG=0
 2. add pycom and pyvm to PATH vaiable 
-   + PATH=`pwd`/com:`pwd`/vm:$PATH
+   + PATH=\`pwd\`/com:\`pwd\`/vm:$PATH
 3. run tests
    + cd tests && ./run 
 4. run a simple HttpServer
