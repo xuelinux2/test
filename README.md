@@ -23,7 +23,6 @@ pylite consists of two executables: pycom and pyvm. pycom is the compiler, which
 6. exception handling
 7. a simple GC
 
-Known bugs:
------------
-1. 在缩进中，只能使用4空格或则TAB
-2. 必须在一行完成list/dict/tuple的字面表示，不能跨行
+### Known bugs:
+1. pylite only use 4 spaces or TAB for indentation 
+2. list/dict/tuple literals must be in single line
